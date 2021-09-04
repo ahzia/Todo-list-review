@@ -67,7 +67,7 @@ const eventListener = () => {
     e.preventDefault();
     const afterElement = getDragAfterElement(container, e.clientY);
     const draggable = document.querySelector('.dragging');
-    if (afterElement == null) {
+    if (afterElement === null) {
       // end of list
       container.appendChild(draggable);
     } else {
