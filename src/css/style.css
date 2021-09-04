@@ -1,6 +1,9 @@
+.d-flex {
+  display: flex;
+}
+
 body {
   background-color: whitesmoke;
-  display: flex;
   justify-content: center;
 }
 
@@ -13,13 +16,11 @@ body {
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .input {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -45,7 +46,6 @@ ul {
 
 .todo {
   list-style: none;
-  display: flex;
   border: 1px solid grey;
   margin-bottom: 5px;
   padding: 2px;
@@ -67,7 +67,6 @@ ul {
 
 .todoContent {
   width: 90%;
-  display: flex;
   align-items: center;
 }
 
@@ -79,14 +78,12 @@ ul {
 
 .draggableAria {
   width: 20%;
-  display: flex;
   align-items: center;
   justify-content: flex-end;
   cursor: grab;
 }
 
 .deleteDiv {
-  display: flex;
   width: 20px;
   align-items: center;
   justify-content: center;
