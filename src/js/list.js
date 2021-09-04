@@ -70,7 +70,7 @@ displayList = () => {
     const inputId = `in${index}`;
     const moveDiv = `mv${index}`;
     const deleteDiv = `del${index}`;
-    let todoCard = `<li id=${liId} class="todo draggable" draggable="true"><div class="todoContent">`;
+    let todoCard = `<li id=${liId} class="d-flex todo draggable" draggable="true"><div class="todoContent">`;
     if (completed) {
       todoCard += `<input type="checkbox" name="todoCheck" class="todoCheck" checked id="${checkboxId}">`;
     } else {
@@ -79,10 +79,10 @@ displayList = () => {
     todoCard += `
       <input type="text" class="description" id="${inputId}" value="${description}">
       </div>
-      <div id="${moveDiv}" class="draggableAria">
+      <div id="${moveDiv}" class="d-flex draggableAria">
         <i class="fas fa-ellipsis-v"></i>
       <div>
-      <div id="${deleteDiv}" class="deleteDiv hidetemp">
+      <div id="${deleteDiv}" class="d-flex deleteDiv hidetemp">
         <i id="i${deleteDiv}" class="fas fa-trash-alt"></i>
       <div>
       </li>`;
