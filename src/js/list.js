@@ -82,7 +82,7 @@ displayList = () => {
       <div id="${moveDiv}" class="draggableAria">
         <i class="fas fa-ellipsis-v"></i>
       <div>
-      <div id="${deleteDiv}" class="deleteDiv hidden">
+      <div id="${deleteDiv}" class="deleteDiv hidetemp">
         <i id="i${deleteDiv}" class="fas fa-trash-alt"></i>
       <div>
       </li>`;
